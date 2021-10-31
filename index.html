@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Lesson - 19 - Random Images - Unobtrusively</title>
+
+    <meta name="viewport" 
+
+          content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+
+    <h1>Lesson 19 - Random Images - Unobtrusively</h1>
+
+    <p>Following is a random quotable quote. To see a new quote
+
+    just reload this page.</p>
+
+    <blockimage id="quote"><img src="banana.jpeg"</blockimage>
+
+
+    
+
+    <script>
+
+      <!-- Hide the script from old browsers
+
+      function getQuote() {
+
+        // Create the arrays
+
+        images = new Array(4);
+
+
+        
+
+        // get the elements to write to by their ID
+
+        blockquote = document.getElementById("image");
+
+        
+
+        // Initialize the arrays with quotes
+
+        images[0] = "<img src="banana.jpeg">";
+
+
+        
+
+        images[1] = <img src="orange.jpeg">";
+
+        
+
+        images[2] = "<img src="pineapple.jpeg">";
+
+
+
+        
+
+        images[3] = "<img src=",mango.jpeg">";
+
+
+
+        
+
+        // Get a random index into the arrays
+
+        i = Math.floor(Math.random() * images.length);
+
+        
+
+        // Write the quote to the DOM
+
+        blockimage.innerHTML = images[i];
+
+
+      }
+
+
+
+      getImage();
+
+      // Stop hiding the script -->
+
+    </script>
+
+
+<br>	<br> <a href="http://csnet.southtexascollege.edu/localuser/spruned5/index.html">Go Back to HomePage</a>
+	<p>Salvador Pruneda</p>
+
+  </body>
+
+</html>
